@@ -2,4 +2,97 @@
 
 /* 回答はここに書いてね */
 
+.box-all{
+  background-color: #ECF1F2;
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+  position: relative;
+}
+  
+
+.q5_box{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  font-weight: bold;
+  line-height: 100px;
+  text-align: center;
+}
+
+.is-one{
+  background-color: #ffefd3;
+  left: 200px;
+  top: 40px;
+  z-index: 1;
+}
+
+.is-eight:after{
+  content: '';
+  background-color: #ffefd3;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: 80px;
+  top: 0;
+}
+
+.is-two{
+  background-color: #7084de;
+  left: 280px;
+  top: 120px;
+  z-index: 2;
+}
+
+.is-three{
+  background-color: #d0ecea;
+  left: 360px;
+  top: 200px;
+  z-index: 3;
+}
+
+.is-four{
+  background-color: #8b7a5e;
+  left: 280px;
+  top: 280px;
+  z-index: 4;
+}
+
+.is-five{
+  background-color: #9fd6d2;
+  left: 200px;
+  top: 360px;
+  z-index: 5;
+}
+
+.is-six{
+  background-color: #fffee4;
+  left: 120px;
+  top: 280px;
+  z-index: 6;
+}
+
+.is-seven{
+  background-color: #deae70;
+  left: 40px;
+  top: 200px;
+  z-index: 7;
+}
+
+.is-eight{
+  background-color: #de70cf;
+  left: 120px;
+  top: 120px;
+  z-index: 8;
+}
+
+.is-nine{
+  background-color: #2b69a3;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+}
+
+
 /* 回答はここに書いてね */

@@ -2,4 +2,316 @@
 
 /* 回答はここに書いてね */
 
+.q8__btn{
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.q8__btn--small{
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 15px;
+}
+
+.q8__btn--middle{
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 32px;
+    padding: 0 20px;
+}
+
+.q8__btn--large{
+    border-radius: 7px;
+    font-size: 24px;
+    line-height: 38px;
+    padding: 0 25px;
+}
+
+.q8__btn--common{
+    background-color: #00bcd4;
+    color: #fff;
+}
+
+.q8__btn--error{
+    background-color: #ff4081;
+    color: #fff;
+}
+
+.q8__btn--disabled{
+    background-color: #e5e5e5;
+    color: #fff;
+}
+
+.q8__btn--shadow{
+    background-color: #fff;
+    color: #222;
+    box-shadow: 0 1px 6px rgba(0,0,0,.12), 0 1px 4px rgba(0,0,0,.12);
+}
+
+/*Q8-2*/
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+li{
+  list-style: none;
+  margin-top: 20px;
+}
+
+.form{
+    background-color: #ecf1f2;
+    margin: 0 auto;
+    padding: 20px;
+    width: 700px;
+}
+
+.form_title{
+    position: relative;
+}
+
+.form_text{
+    background-color: #ecf1f2;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 10px;
+    position: relative;
+}
+
+.form_title:before{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    content: ''
+}
+
+.main_contents_profile{
+    float: left;
+}
+
+.main_contents_form{
+    float: right;
+}
+
+.main_contents_title{
+    float: left;
+    width: 100px;
+    line-height: 25px;
+    text-align: right;
+}
+
+.main_contents_man{
+    float: left;
+}
+
+.main_contents_woman{
+    float: right;
+}
+
+.main_contents_inputbox{
+    background-color: #fff;
+    border-radius: 3px;
+    box-sizing: border-box;
+    float: right;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 5px;
+    width: 100%;
+}
+
+.text_box{
+    background-color: #fff;
+    border-radius: 3px;
+    box-sizing: border-box;
+    float: right;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 5px;
+    width: 180px;
+}
+
+.required{
+    color: #f00;
+}
+
+.q8_text_box{
+    border: none;
+    outline: none;
+    position: relative;
+}
+
+.text_box:focus{
+    box-shadow: 0 0 4px  #00bcd4;
+}
+
+.q8_radio{
+    position: relative;
+    margin-left: 10px;
+}
+
+.radio_btn{
+    display: none;
+    margin-left: 10px;
+}
+
+.q8_radio_btn{
+    display: inline-block;
+    position: relative;
+    padding: 3px 3px 3px 20px;
+}
+
+.q8_radio_btn:before{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 14px;
+    width: 14px;
+    margin-top: -8px;
+    content: ''
+}
+
+.radio_btn:checked +
+.q8_radio_btn:after{
+    background-color: #00bcd4;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    height: 8px;
+    width: 8px;
+    margin-top: -4px;
+    content: ''
+}
+
+.q8_select{
+    position: relative;
+    float: right;
+}
+
+.select_box{
+    background-color: #fff;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 5px;
+    width: 180px;
+    cursor: pointer;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    -webkit-appearance: none;
+}
+
+.q8_select:after{
+    display: block;
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    transform: rotate(45deg);
+    content: ''
+}
+
+.checkbox{
+    text-align: right;
+}
+
+.check_btn{
+    display: none;
+}
+
+.checkbox_text{
+    position: relative;
+    display: inline-block;
+    padding-left: 24px;
+}
+
+.checkbox_text:before{
+    /* display: inline-block; */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    margin-top: -9px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    content: '';
+}
+
+.check_btn:checked +
+.checkbox_text:after{
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    margin-top: -14px;
+    width: 8px;
+    height: 16px;
+    border-right: 3px solid #00bcd4;
+    border-bottom: 3px solid #00bcd4;
+    transform: rotate(45deg);
+    content: ''
+}
+
+.q8_send_btn{
+    text-align: right;
+}
+
+.send_btn{
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00bcd4;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.send_btn:active{
+    background-color: #fff;
+    color: #00bcd4;
+}
+
+.side_text{
+    float: right;
+    width: 380px;
+}
+
+.side_contents_form{
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 12px;
+    height: 203px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    resize: none;
+}
+
+.side_contents_form:focus{
+    box-shadow: 0 0 4px  #00bcd4;
+}
+
 /* 回答はここに書いてね */

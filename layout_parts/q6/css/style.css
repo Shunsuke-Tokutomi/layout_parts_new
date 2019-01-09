@@ -2,4 +2,91 @@
 
 /* 回答はここに書いてね */
 
+/* Q1 */
+
+.q6_align_parent{
+  text-align: center;
+}
+
+/* align */
+
+.q6_align{
+  background-color: #e6f2ff;
+  display: inline-block;
+  padding: 10px;
+  width: 70px;
+}
+
+/* margin */
+
+.q6_margin{
+  background-color: #e6f2ff;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  width: 70px;
+}
+
+
+/* Q2 */
+
+.q6_updown{
+  display: table;
+}
+
+/* table */
+
+.table_parent{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.q6_table{
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px;
+}
+
+/* flex */
+
+.flex_parent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.q6_flex{
+  background-color: #fff;
+  padding: 10px;
+}
+
+/* fixed */
+
+.fixed_parent{
+  position: relative;
+}
+
+.q6_fixed{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/* variable */
+
+.variable_parent{
+  position: relative;
+}
+
+.q6_variable{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* 回答はここに書いてね */
